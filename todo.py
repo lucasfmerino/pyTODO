@@ -54,7 +54,6 @@ Choose a container option:
 
 
 # SECOND STEP - CHOOSE A ACTION:
-
     print()
 
     back = False
@@ -144,7 +143,6 @@ Choose a container option:
 
 
 # END STEP - SAVE
-
 save_data(containers)
 print()
 print("Thankyou to use PYTODO")

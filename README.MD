@@ -4,7 +4,7 @@
 <br>
 
 # Description
-PyTODO is a Python program that allows users to create, manage, and organize tasks in different containers, such as a backlog or a sprint. It consists of three modules, which are described below.
+PyTODO is a Python program that allows users to create, manage, and organize tasks in different containers. It consists of three modules, which are described below.
 <br>
 
 ## Module 1 - id_control
@@ -27,14 +27,14 @@ The `Container` class has the following methods:
 The `save_data(containers_list)` function is also provided to save all the tasks in the containers in the `containers_list` to their respective files.
 <br>
 
-## Module 3 - main
-The `main` module is the main program that uses the `id_control` and `mod_todo` modules to create and manage the containers and tasks.
+## Module 3 - todo
+The `todo` module is the main program that uses the `id_control` and `mod_todo` modules to create and manage the containers and tasks.
 
 When the program starts, it loads the tasks from the files specified in the `Container` instances and presents the user with a welcome interface. The user can choose a container to work with and then choose an action to perform, such as adding or deleting a task, or moving a task to another container. When the user finishes working with a container, the program saves all the tasks in the container to its file.
 <br>
 
 # Usage
-To use PyTODO, run the `main.py` file. You will be presented with a welcome interface and a list of options to choose from. Follow the prompts to create and manage containers and tasks.
+To use PyTODO, run the `todo.py` file. You will be presented with a welcome interface and a list of options to choose from. Follow the prompts to create and manage containers and tasks.
 <br>
 
 # Requirements
